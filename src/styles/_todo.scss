@@ -1,0 +1,16 @@
+.todo{
+    background-color:rebeccapurple;
+    flex-direction: row;
+}
+
+.content div div{
+    @include contentDiv(tomato,row);
+    width:300px;
+    padding:10px 20px;
+    
+}
+
+.content div{
+    @include contentDiv($background-color,column);
+    padding:10px 20px;
+}
