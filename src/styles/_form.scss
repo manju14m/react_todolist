@@ -30,6 +30,7 @@ body{
 }
 input[type=text]{
     outline: none;
+    max-width:60%;
     border-radius: 10px;
     font-size: 20px;
 }
@@ -47,5 +48,8 @@ input[type=text]{
 form{
     @include contentDiv($background-color, row);
     max-width:400px;
+    position: sticky;
+    top:0;
+    left:0;
 }
 

@@ -34,6 +34,7 @@ body {
 
 input[type=text] {
   outline: none;
+  max-width: 60%;
   border-radius: 10px;
   font-size: 20px;
 }
@@ -54,6 +55,10 @@ form {
   font-size: 32px;
   background-color: #cff015;
   max-width: 400px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 .todo {
