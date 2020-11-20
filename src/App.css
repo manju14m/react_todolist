@@ -1,38 +1,103 @@
-.App {
+body {
+  background-color: #cff015;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+}
+
+.content {
   text-align: center;
+  margin: 20px auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.submit {
+  margin: 0 10px;
+  background-color: #419bcf;
+  padding: 6px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.submit:hover {
+  -webkit-filter: opacity(0.8);
+          filter: opacity(0.8);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+input[type=text] {
+  outline: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 10px;
+  margin: 10px auto;
+  font-size: 32px;
+  background-color: #cff015;
+  max-width: 400px;
 }
 
-.App-link {
-  color: #61dafb;
+.todo {
+  background-color: rebeccapurple;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 10px;
+  margin: 10px auto;
+  font-size: 32px;
+  background-color: tomato;
+  width: 300px;
+  padding: 10px 20px;
 }
+
+.content div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+  margin: 10px auto;
+  font-size: 32px;
+  background-color: #cff015;
+  padding: 10px 20px;
+}
+/*# sourceMappingURL=App.css.map */
